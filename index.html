@@ -11,9 +11,6 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/animate.css" rel="stylesheet">
-    <link href="fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -1027,7 +1024,15 @@ sourceType=constructor&scroll=true"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/bootstrap.min.js"></script>
 <!--<script src="./js/jquery.nicescroll.min.js"></script>-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="fotorama-4.6.4/fotorama.js"></script> <!-- 16 KB -->
+<script src="./js/wow.min.js"></script>
 
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/animate.css" rel="stylesheet">
+<link href="fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
 <script>
     var h_hght = 110; // высота шапки
@@ -1087,18 +1092,14 @@ sourceType=constructor&scroll=true"></script>
     });
 </script>
 <script>
+    new WOW().init();
+</script>
+<script>
     $(document).ready(
         function () {
             $('html').niceScroll({cursorcolor: "#000"});
         }
     );
-</script>
-
-<script src="fotorama-4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
-<script src="./js/wow.min.js"></script>
-<script>
-    new WOW().init();
 </script>
 </body>
 </html>
