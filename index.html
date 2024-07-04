@@ -22,9 +22,10 @@
 <body>
 <header class="hidden-xs">
     <div class="container">
-        <div class="row">
+        <div class="row wow"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft;">
             <div class="col-sm-3 logotype">
-                <img class="img-responsive" src="img/logo.png" alt="Логотип SGG">
+                <img class="img-responsive" src="img/logo.png" alt="Логотип SG">
             </div>
             <div class="col-sm-6 text-cen ter descript">
                 <h4>Продажа, установка и обслуживание домофонов, автоматики, заборов, электроприводов ворот.</h4>
@@ -38,7 +39,8 @@
     </div>
 </header>
 
-<nav class="hidden-xs" id="top_nav">
+<nav class="hidden-xs wow" id="top_nav"
+     style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp;">
     <div class="container">
         <div class="row">
             <ul class="list-inline">
@@ -67,11 +69,10 @@
 
 <nav class="visible-xs">
     <div class="container">
-        <div class="col-xs-3 text-center">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+        <div class="col-xs-3 dropdown text-center">
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" href="#" role="button"
                aria-haspopup="true" aria-expanded="false">
-                <i style="font-size:24px" class="fa">&#xf0c9;</i>
-
+                навигация
             </a>
             <ul class="dropdown-menu">
                 <li><a href="#main">Главная</a></li>
@@ -83,29 +84,35 @@
             </ul>
         </div>
         <div class="col-xc-6 col-xs-offset-3">
-            <img src="./img/logo60x130.png" alt="" class="img-responsive pull-right">
+            <img src="img/logo50x130.png" alt="" class="img-responsive pull-right">
         </div>
     </div>
 </nav>
 
 <section id="main">
     <div class="container">
-        <div class="row wow rollIn main_header" data-wow-duration="2s" data-wow-delay="0.3s">
+        <div class="row wow main_header"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: backInLeft;">
             <h1><span>Установка и продажа автоматики</span><br><span>(DEA, Nice, Faac, Alutech, HomeGate),</span><br>
                 <span>видеодомофонов CTV,
                 комплектующие</span><br> <span>к
                 воротам и калиткам. Ремонт автоматики.</span></h1>
         </div>
-        <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+        <div class="row wow slideInLeft"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: slideInLeft;">
             <h3>Позвоните нам для консультации. <span>Это бесплатно!</span></h3>
         </div>
         <div class="row main_buttons">
-            <button class="wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="2s" data-toggle="modal"
+            <button class="wow fadeInLeft"
+                    style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeInLeft;"
+                    data-toggle="modal"
                     id="get_measurer"
                     href="#get_measurer_modal">Позвонить для консультации
             </button>
             <a href="#types">
-                <button class="wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="2s" id="get_product">Выбрать
+                <button class="wow fadeInLeft"
+                        style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: fadeInLeft;"
+                        id="get_product">Выбрать
                     продукт
                 </button>
             </a>
@@ -117,13 +124,15 @@
 <section id="types">
     <div class="container">
         <div class="row">
-            <div class="section_header wow animate__fadeInUp text-center">
+            <div class="section_header wow text-center"
+                 style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeInUp;">
                 <h2>Наша продукция</h2>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-lg-3 col-sm-6">
-                <div class="card wow animate__bounceInUp" data-wow-delay="0.2s">
+                <div class="card wow"
+                     style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: bounceInUp;">
                     <img src="img/types-1 280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Домофоны</h4>
                     <br>
@@ -132,7 +141,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="card wow animate__bounceInUp" data-wow-delay="0.4s">
+                <div class="card wow"
+                     style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: bounceInUp;">
                     <img src="img/types-2%20280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Заборы и ворота</h4>
                     <br>
@@ -141,7 +151,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="card wow animate__bounceInUp" data-wow-delay="0.6s">
+                <div class="card wow"
+                     style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s; animation-name: bounceInUp;">
                     <img src="img/types-3%20280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Электроприводы ворот</h4>
                     <br>
@@ -150,7 +161,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
-                <div class="card wow animate__bounceInUp" data-wow-delay="0.8s">
+                <div class="card wow"
+                     style="visibility: visible; animation-duration: 2s; animation-delay: 0.8s; animation-name: bounceInUp;">
                     <img src="img/types-4%20280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Обслуживание</h4>
                     <br>
@@ -164,7 +176,8 @@
 
 <section id="help">
     <div class="container">
-        <div class="row">
+        <div class="row wow"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: slideInLeft;">
             <div class="col-md-6 col-sm-8 col-md-offset-2">
                 <h3>Не знаете что именно вам нужно?</h3>
                 <br>
@@ -185,11 +198,13 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <div class="section_header wow animate__fadeInUp text-center">
+            <div class="section_header wow text-center"
+                 style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp;">
                 <h2>Наши работы</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row wow"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: bounceInUp;">
             <div class="col-md-8 col-md-offset-2">
                 <div class="slider">
                     <div class="fotorama" data-nav="thumbs" data-ratio="800/600" data-fit="cover"
@@ -212,7 +227,8 @@
 
 <section id="offer">
     <div class="container">
-        <div class="row">
+        <div class="row wow"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft;">
             <div class="col-md-3">
                 <img src="img/gift%20300x260.jpg" alt="Акция" class="img-responsive center-block gift">
             </div>
@@ -244,11 +260,13 @@
 <section id="feedback">
     <div class="container">
         <div class="row">
-            <div class="section_header wow animate__fadeInUp text-center">
+            <div class="section_header wow text-center"
+                 style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp;">
                 <h2>Отзывы о нашей работе</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row wow"
+             style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp;">
             <div class="feedback_slider">
                 <div id="myCarousel" class="carousel slide" data-interval="30000" data-ride="carousel">
                     <!-- Индикаторы для карусели -->
@@ -407,7 +425,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row social">
                     <div class="social_icon">
                         <a href="https://www.instagram.com/smartgardgrodno?igsh=d2E5dWFlNmVtNTJo"><img
-                                src="img/icon/inst_marker13x13.png" alt="inst"></a>
+                                src="img/icon/inst_marker31x31.png" alt="inst"></a>
                     </div>
                     <button id="get_answer" data-toggle="modal"
                             href="#get_question">
@@ -515,7 +533,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                         <p>
                             Мы предлагаем к продаже, установке и обслуживанию в Гродно и Гродненской области домофоны
                             самых разных типов: <br><br>
-                            С телефонной трубкой или с экраном, чёрно-белым или цветные аналоговые и цифровые
+                            С телефонной трубкой или с экраном, чёрно-белым или цветнымб аналоговые и цифровые
                             видеодомофоны. <br><br>
 
                             IP-видеодомофоны, аудиодомофоны, вызывные панели, блоки сопряжения, готовые
@@ -1018,21 +1036,6 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/bootstrap.min.js"></script>
-<!--<script src="./js/jquery.nicescroll.min.js"></script>-->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="fotorama-4.6.4/fotorama.js"></script> <!-- 16 KB -->
-<script src="./js/wow.min.js"></script>
-
-<link href="./css/bootstrap.min.css" rel="stylesheet">
-<link href="./css/animate.css" rel="stylesheet">
-<link href="fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-
 <script>
     var h_hght = 110; // высота шапки
     var h_mrg = 0;	  // отступ когда шапка уже не видна
@@ -1091,14 +1094,30 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     });
 </script>
 <script>
-    new WOW().init();
-</script>
-<script>
     $(document).ready(
         function () {
             $('html').niceScroll({cursorcolor: "#000"});
         }
     );
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link href="fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="fotorama-4.6.4/fotorama.js"></script> <!-- 16 KB -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/wow.min.js"></script>
+<!-- <link rel="stylesheet" href="./css/animate.css">-->
+<link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
 </script>
 </body>
 </html>

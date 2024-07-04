@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'PFDinTextCondProBold';
+  src: url('fonts/bold/PFDinTextCondProBold.eot');
+  src: url('fonts/bold/PFDinTextCondProBold.eot') format('embedded-opentype'),
+  url('fonts/bold/PFDinTextCondProBold.woff2') format('woff2'),
+  url('fonts/bold/PFDinTextCondProBold.woff') format('woff'),
+  url('fonts/bold/PFDinTextCondProBold.ttf') format('truetype'),
+  url('fonts/bold/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondProMedium';
+  src: url('fonts/medium/PFDinTextCondProMedium.eot');
+  src: url('fonts/medium/PFDinTextCondProMedium.eot') format('embedded-opentype'),
+  url('fonts/medium/PFDinTextCondProMedium.woff2') format('woff2'),
+  url('fonts/medium/PFDinTextCondProMedium.woff') format('woff'),
+  url('fonts/medium/PFDinTextCondProMedium.ttf') format('truetype'),
+  url('fonts/medium/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondProLight';
+  src: url('fonts/light/PFDinTextCondProLight.eot');
+  src: url('fonts/light/PFDinTextCondProLight.eot') format('embedded-opentype'),
+  url('fonts/light/PFDinTextCondProLight.woff2') format('woff2'),
+  url('fonts/light/PFDinTextCondProLight.woff') format('woff'),
+  url('fonts/light/PFDinTextCondProLight.ttf') format('truetype'),
+  url('fonts/light/PFDinTextCondProLight.svg#PFDinTextCondProMedium') format('svg');
+}
+
+.bold {
+  font-family: "PFDinTextCondProBold";
+}
+
+.med {
+  font-family: "PFDinTextCondProMedium";
+}
+
+.light {
+  font-family: "PFDinTextCondProLight";
+}
+
 /*============    	АДАПТИВ    ===========*/
 .dropdown-toggle {
   border: 1px solid #000;
@@ -22,7 +64,15 @@
   nav {
     top: 0;
     height: 60px;
-    padding-top: 10px;
+    padding-top: 5px;
+
+    .btn {
+      .bold;
+      margin-top: 10px;
+      text-transform: uppercase;
+      border: 2px solid #666666;
+
+    }
   }
 
   section#main {
@@ -158,6 +208,14 @@
     top: 0;
     height: 60px;
     padding-top: 10px;
+
+    .btn {
+      .bold;
+      margin-top: 3px;
+      text-transform: uppercase;
+      border: 2px solid #666666;
+
+    }
   }
 
   section#main {
@@ -294,6 +352,14 @@
     top: 0;
     height: 60px;
     padding-top: 10px;
+
+    .btn {
+      .bold;
+      margin-top: 3px;
+      text-transform: uppercase;
+      border: 2px solid #666666;
+
+    }
   }
 
   section#main {
@@ -465,6 +531,7 @@
   .policy {
     padding-top: 10px;
   }
+
   .big_modal {
     h4 {
       front-size: 14px;
@@ -493,6 +560,7 @@
       }
     }
   }
+
   .big_modal {
     h4 {
       front-size: 14px;

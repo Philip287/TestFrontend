@@ -1,48 +1,3 @@
-/*============    ШРИФТЫ    ===========*/
-
-@font-face {
-  font-family: 'PFDinTextCondProBold';
-  src: url('fonts/bold/PFDinTextCondProBold.eot');
-  src: url('fonts/bold/PFDinTextCondProBold.eot') format('embedded-opentype'),
-  url('fonts/bold/PFDinTextCondProBold.woff2') format('woff2'),
-  url('fonts/bold/PFDinTextCondProBold.woff') format('woff'),
-  url('fonts/bold/PFDinTextCondProBold.ttf') format('truetype'),
-  url('fonts/bold/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
-}
-
-@font-face {
-  font-family: 'PFDinTextCondProMedium';
-  src: url('fonts/medium/PFDinTextCondProMedium.eot');
-  src: url('fonts/medium/PFDinTextCondProMedium.eot') format('embedded-opentype'),
-  url('fonts/medium/PFDinTextCondProMedium.woff2') format('woff2'),
-  url('fonts/medium/PFDinTextCondProMedium.woff') format('woff'),
-  url('fonts/medium/PFDinTextCondProMedium.ttf') format('truetype'),
-  url('fonts/medium/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
-}
-
-@font-face {
-  font-family: 'PFDinTextCondProLight';
-  src: url('fonts/light/PFDinTextCondProLight.eot');
-  src: url('fonts/light/PFDinTextCondProLight.eot') format('embedded-opentype'),
-  url('fonts/light/PFDinTextCondProLight.woff2') format('woff2'),
-  url('fonts/light/PFDinTextCondProLight.woff') format('woff'),
-  url('fonts/light/PFDinTextCondProLight.ttf') format('truetype'),
-  url('fonts/light/PFDinTextCondProLight.svg#PFDinTextCondProMedium') format('svg');
-}
-
-.bold {
-  font-family: "PFDinTextCondProBold";
-}
-
-.med {
-  font-family: "PFDinTextCondProMedium";
-}
-
-.light {
-  font-family: "PFDinTextCondProLight";
-}
-
-
 /*======================    БАЗОВЫЕ НАСТРОЙКИ   ====================*/
 a:hover,
 a:focus,
@@ -109,7 +64,7 @@ header {
         content: '';
         width: 20px;
         height: 20px;
-        background: url(../img/icon/phone_icon20x20.jpg) no-repeat center;
+        background: url(../img/icon/phone_icon20x20.png) no-repeat center;
         display: inline-block;
       }
     }
@@ -201,7 +156,7 @@ section#main {
     button#get_product {
       border: none;
       background-color: transparent;
-      padding: 15px 33px;
+      padding: 12px 37px;
       color: #ff9933;
       font-size: 20px;
       .bold;
@@ -346,7 +301,7 @@ section#offer {
   }
 
   input[name="name"] {
-    background: url(../img/icon/name_input20x20.jpg) no-repeat left 12px;
+    background: url(../img/icon/name_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
     border: 0;
@@ -362,7 +317,7 @@ section#offer {
   }
 
   input[name="phone"] {
-    background: url(../img/icon/tel_input20x20.jpg) no-repeat left 12px;
+    background: url(../img/icon/tel_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
     border: 0;
@@ -514,8 +469,7 @@ footer {
     margin-right: 5px;
     display: inline-block;
     background-color: #cccccc;
-    padding: 8px;
-    padding-left: 9px;
+    padding-top: 4px;
     border-radius: 50%;
     text-align: center;
     width: 37px;
@@ -624,7 +578,7 @@ h4.modal-title {
 
   input[name="name"] {
     margin-top: 15px;
-    background: url(../img/icon/name_input20x20.jpg) no-repeat left 12px;
+    background: url(../img/icon/name_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
     border: 0;
@@ -641,7 +595,7 @@ h4.modal-title {
 
   input[name="phone"] {
     margin-top: 15px;
-    background: url(../img/icon/tel_input20x20.jpg) no-repeat left 12px;
+    background: url(../img/icon/tel_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
     border: 0;
@@ -718,6 +672,6 @@ h4.modal-title {
 
 /*============    	АДАПТИВ    ===========*/
 
-@import "media.less";
+@import "../../test2/css/media.less";
 
 
