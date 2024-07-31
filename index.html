@@ -39,30 +39,32 @@
     </div>
 </header>
 
-<nav class="hidden-xs wow" id="top_nav"
+<nav class="hidden-xs text-left wow" id="top_nav"
      style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInUp;">
     <div class="container">
         <div class="row">
-            <ul class="list-inline">
-                <a href="#main">
-                    <li>Главная</li>
-                </a>
-                <a href="#types">
-                    <li>Продукция</li>
-                </a>
-                <a href="#portfolio">
-                    <li>Наши работы</li>
-                </a>
-                <a href="#offer">
-                    <li>Акция</li>
-                </a>
-                <a href="#feedback">
-                    <li>Отзывы</li>
-                </a>
-                <a href="#contacts">
-                    <li>Контакты</li>
-                </a>
-            </ul>
+            <div class="col-sm-12">
+                <ul class="list-inline">
+                    <a href="#main">
+                        <li>Главная</li>
+                    </a>
+                    <a href="#types">
+                        <li>Наша продукция</li>
+                    </a>
+                    <a href="#portfolio">
+                        <li>Наши работы</li>
+                    </a>
+                    <a href="#offer">
+                        <li>Акция</li>
+                    </a>
+                    <a href="#feedback">
+                        <li>Отзывы</li>
+                    </a>
+                    <a href="#contacts">
+                        <li>Контакты</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
@@ -70,20 +72,21 @@
 <nav class="visible-xs">
     <div class="container">
         <div class="col-xs-3 dropdown text-center">
-            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" href="#" role="button"
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+               href="#" role="button"
                aria-haspopup="true" aria-expanded="false">
                 навигация
             </a>
             <ul class="dropdown-menu">
                 <li><a href="#main">Главная</a></li>
-                <li><a href="#types">Продукция</a></li>
+                <li><a href="#types">Наша продукция</a></li>
                 <li><a href="#portfolio">Наши работы</a></li>
                 <li><a href="#offer">Акция</a></li>
                 <li><a href="#feedback">Отзывы</a></li>
                 <li><a href="#contacts">Контакты</a></li>
             </ul>
         </div>
-        <div class="col-xc-6 col-xs-offset-3">
+        <div class="col-xc-6 col-xs-offset-3 image">
             <img src="img/logo50x130.png" alt="" class="img-responsive pull-right">
         </div>
     </div>
@@ -92,10 +95,10 @@
 <section id="main">
     <div class="container">
         <div class="row main_header">
-            <h1> <span>Продажа заборов, металоштакетника, ворот и калиток, бетонных блоков.</span><br>
+            <h1><span>Продажа заборов, металоштакетника, ворот и калиток, бетонных блоков.</span><br>
                 <span>фурнитура для калиток, дверей и ворот. </span><br>
                 <span>Установка и продажа автоматики (DEA, Nice, Faac, Alutech, HomeGate).</span><br> <span>видеодомофонов CTV.</span>
-                    </span><br> <span>Ремонт автоматики.</span></h1>
+                </span><br> <span>Ремонт автоматики.</span></h1>
         </div>
         <div class="row wow slideInLeft"
              style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: slideInLeft;">
@@ -131,7 +134,7 @@
         <div class="row text-center">
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
-                    <img src="img/types-1 280x254.jpg" alt="Product" class="img-responsive center-block">
+                    <img src="img/types-1intercom280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Домофоны</h4>
                     <br>
                     <button class="more_btn" data-toggle="modal" href="#more_intercom">подробнее</button>
@@ -140,8 +143,8 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
-                    <img src="img/types-2%20280x254.jpg" alt="Product" class="img-responsive center-block">
-                    <h4>Заборы и ворота</h4>
+                    <img src="img/types-2fence280x254.jpg" alt="Product" class="img-responsive center-block">
+                    <h4>Заборы</h4>
                     <br>
                     <button class="more_btn" data-toggle="modal" href="#more_fence">подробнее</button>
                     <button class="offer_btn" data-toggle="modal" href="#get_fence">заказать</button>
@@ -149,16 +152,63 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
-                    <img src="img/types-3%20280x254.jpg" alt="Product" class="img-responsive center-block">
-                    <h4>Электроприводы ворот</h4>
+                    <img src="img/types-3concrete-elements280x254.png" alt="Product"
+                         class="img-responsive center-block">
+                    <h4>Бетонные элементы</h4>
                     <br>
-                    <button class="more_btn" data-toggle="modal" href="#more_electric_drive">подробнее</button>
-                    <button class="offer_btn" data-toggle="modal" href="#get_electric_drive">заказать</button>
+                    <button class="more_btn" data-toggle="modal" href="#more_concrete-elements">подробнее</button>
+                    <button class="offer_btn" data-toggle="modal" href="#get_concrete-elements">заказать</button>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
-                    <img src="img/types-4%20280x254.jpg" alt="Product" class="img-responsive center-block">
+                    <img src="img/types-4automatic280x254.jpg" alt="Product" class="img-responsive center-block">
+                    <h4>Автоматика</h4>
+                    <br>
+                    <button class="more_btn" data-toggle="modal" href="#more_automatic">подробнее</button>
+                    <button class="offer_btn" data-toggle="modal" href="#get_automatic">заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="section_header wow text-center"
+                 style="visibility: visible; animation-duration: 2s; animation-delay: 0.5s; animation-name: fadeInUp;">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="img/types-5furniture280X254.png" alt="Product" class="img-responsive center-block">
+                    <h4>Фурнитура</h4>
+                    <br>
+                    <button class="more_btn" data-toggle="modal" href="#more_furniture">подробнее</button>
+                    <button class="offer_btn" data-toggle="modal" href="#get_furniture">заказать</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="img/types-6gate280x254.png" alt="Product" class="img-responsive center-block">
+                    <h4>Ворота</h4>
+                    <br>
+                    <button class="more_btn" data-toggle="modal" href="#more_gate">подробнее</button>
+                    <button class="offer_btn" data-toggle="modal" href="#get_gate">заказать</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="img/types-7wicket280x254.png" alt="Product" class="img-responsive center-block">
+                    <h4>Калитки</h4>
+                    <br>
+                    <button class="more_btn" data-toggle="modal" href="#more_wicket">подробнее</button>
+                    <button class="offer_btn" data-toggle="modal" href="#get_wicket">заказать</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="img/types-8service280x254.jpg" alt="Product" class="img-responsive center-block">
                     <h4>Обслуживание</h4>
                     <br>
                     <button class="more_btn" data-toggle="modal" href="#more_service">подробнее</button>
@@ -537,8 +587,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     <div class="col-sm-7">
                         <p>
                             Мы предлагаем к продаже, установке и обслуживанию в Гродно и Гродненской области домофоны
-                            самых разных типов: <br><br>
-                            С телефонной трубкой или с экраном, чёрно-белым или цветнымб аналоговые и цифровые
+                            (видеомониторы и вызывные панели) самых разных типов: <br><br>
+                            С телефонной трубкой или с экраном, чёрно-белым или цветные аналоговые и цифровые
                             видеодомофоны. <br><br>
 
                             IP-видеодомофоны, аудиодомофоны, вызывные панели, блоки сопряжения, готовые
@@ -582,7 +632,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
             <div class="modal-body">
                 <div class="row">
                     <div class="header_modal_info">
-                        <h4>Заборы и ворота</h4>
+                        <h4>Заборы</h4>
                     </div>
                     <br>
                 </div>
@@ -594,20 +644,18 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                             <img src="img/types/fence/3.jpg" alt="fence">
                             <img src="img/types/fence/4.jpg" alt="fence">
                             <img src="img/types/fence/5.jpg" alt="fence">
-                            <img src="img/types/fence/6.jpg" alt="fence">
-                            <img src="img/types/fence/7.jpg" alt="fence">
-                            <img src="img/types/fence/8.jpg" alt="fence">
-                            <img src="img/types/fence/9.jpg" alt="fence">
-                            <img src="img/types/fence/10.jpg" alt="fence">
                         </div>
                     </div>
                     <div class="col-sm-7">
                         <p>
-                            Заборы и ворота под ключ в Гродно и Гродненской области от нашей компании – это одно из
+                            Заборы под ключ в Гродно и Гродненской области от нашей компании – это одно из
                             самых выгодных предложений в этой сфере по всему Гродно и Гродненской области.
                             Мы предлагаем услугу “Заборы под ключ” как комплексное предложение, потому как, она включает
                             в себя все необходимые действия от мысли до готового забора и не требует фактически никаких
                             усилий и затрат времени от заказчика, кроме как заказать и принять выполненные работы.
+                            Мы осуществляем проектировку и установку таких заборов как забор-жалюзи, ранчо,
+                            металоштокет,
+                            металопрокатный.
                             <br><br>
 
                             Сюда входит:<br>
@@ -626,7 +674,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row">
                     <form action="send.php">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Ворота и заборы">
+                            <input type="hidden" name="what" value="Заборы">
                             <input name="name" type="text" required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
@@ -644,8 +692,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- Подробнее приводы ворот -->
-<div class="modal fade" id="more_electric_drive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<!-- Подробнее бетонные элементы -->
+<div class="modal fade" id="more_concrete-elements" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog big_modal">
         <div class="modal-content">
@@ -655,22 +703,88 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
             <div class="modal-body">
                 <div class="row">
                     <div class="header_modal_info">
-                        <h4>Электроприводы ворот</h4>
+                        <h4>Бетонные элементы</h4>
                     </div>
                     <br>
                 </div>
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="fotorama" data-width="100%">
-                            <img src="img/types/electricDrive/1.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/2.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/3.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/4.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/5.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/6.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/7.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/8.jpg" alt="intercoms">
-                            <img src="img/types/electricDrive/9.jpg" alt="intercoms">
+                            <img src="img/types/concrete-elements/1.png" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/2.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/3.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/4.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/5.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/6.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/7.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/8.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/9.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/10.jpg" alt="concrete-elements">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <p>
+                            Плитка<br>
+                            Бетонные блоки<br>
+                            Бетонные кирпичики<br>
+                            Кубики парапетные<br>
+                            Имитация фундамента
+                            <br><br>
+                        </p>
+                        <br>
+                        <p>
+                            <span>от 999 рублей</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-sm-4">
+                            <input type="hidden" name="what" value="Бетонные элементы">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <input name="phone" id="phone-8" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее автоматика -->
+<div class="modal fade" id="more_automatic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog big_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="header_modal_info">
+                        <h4>Автоматика</h4>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="fotorama" data-width="100%">
+                            <img src="img/types/automatic/1.jpg" alt="intercoms">
+                            <img src="img/types/automatic/2.jpg" alt="intercoms">
+                            <img src="img/types/automatic/3.jpg" alt="intercoms">
+                            <img src="img/types/automatic/4.jpg" alt="intercoms">
+                            <img src="img/types/automatic/5.jpg" alt="intercoms">
+                            <img src="img/types/automatic/6.jpg" alt="intercoms">
+                            <img src="img/types/automatic/7.jpg" alt="intercoms">
+                            <img src="img/types/automatic/8.jpg" alt="intercoms">
+                            <img src="img/types/automatic/9.jpg" alt="intercoms">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -697,6 +811,182 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                         </div>
                         <div class="col-sm-4">
                             <input name="phone" id="phone-5" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее фурнитура -->
+<div class="modal fade" id="more_furniture" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog big_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="header_modal_info">
+                        <h4>Фурнитура</h4>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="fotorama" data-width="100%">
+                            <img src="img/types/furniture/1.png" alt="furniture">
+                            <img src="img/types/furniture/1.png" alt="furniture">
+                            <img src="img/types/furniture/1.png" alt="furniture">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <p>
+                            Мы предлагаем услуги по продаже и установке:
+                            <br>
+                            - комплектов для ворот;
+                            <br>
+                            - комплектов для калиток.
+                        </p>
+                        <br>
+                        <p>
+                            <span>от 999 рублей</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-sm-4">
+                            <input type="hidden" name="what" value="Фурнитура">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <input name="phone" id="phone-9" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее ворота -->
+<div class="modal fade" id="more_gate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog big_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="header_modal_info">
+                        <h4>Ворота</h4>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="fotorama" data-width="100%">
+                            <img src="img/types/gate/1.jpg" alt="furniture">
+                            <img src="img/types/gate/2.jpg" alt="furniture">
+                            <img src="img/types/gate/3.jpg" alt="furniture">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <p>
+                            Мы предлагаем услуги по проектировке, продаже и установке:
+                            <br>
+                            - откатных ворот;
+                            <br>
+                            - распашных ворот.
+                        </p>
+                        <br>
+                        <p>
+                            <span>от 999 рублей</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-sm-4">
+                            <input type="hidden" name="what" value="Ворота">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <input name="phone" id="phone-10" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее калитки -->
+<div class="modal fade" id="more_wicket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog big_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="header_modal_info">
+                        <h4>Калитки</h4>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="fotorama" data-width="100%">
+                            <img src="img/types/wicket/1.jpg" alt="wicket">
+                            <img src="img/types/wicket/1.jpg" alt="wicket">
+                            <img src="img/types/wicket/1.jpg" alt="wicket">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <p>
+                            Мы предлагаем услуги по проектировке, продаже и установке:
+                            <br>
+                            - калиток открывающихся в правую сторону;
+                            <br>
+                            - калиток открывающихся в левую сторону;
+                            <br>
+                            - калиток открывающихся с ноги.
+                        </p>
+                        <br>
+                        <p>
+                            <span>от 999 рублей</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-sm-4">
+                            <input type="hidden" name="what" value="Калитки">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-sm-4">
+                            <input name="phone" id="phone-11" type="tel" required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -813,14 +1103,14 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
             <div class="modal-body text-center">
                 <div class="row">
                     <div class="header_modal">
-                        <h4>Для получения дополнительной информации и заказа интересующего вас забора и ворот оставьте
+                        <h4>Для получения дополнительной информации и заказа интересующего вас забора оставьте
                             свои данные</h4>
                     </div>
                 </div>
                 <div class="row">
                     <form action="send.php">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказать забор или ворота">
+                            <input type="hidden" name="what" value="Заказ забора">
                             <input name="name" type="text" required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
@@ -838,8 +1128,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- Заказать привод ворот-->
-<div class="modal fade" id="get_electric_drive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<!-- Заказать бетонных элементов-->
+<div class="modal fade" id="get_concrete-elements" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -850,14 +1140,14 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
             <div class="modal-body text-center">
                 <div class="row">
                     <div class="header_modal">
-                        <h4>Для получения дополнительной информации и заказа интересующего вас электропривода ворот
+                        <h4>Для получения дополнительной информации и заказа интересующих вас бетонных элементов
                             оставьте свои данные</h4>
                     </div>
                 </div>
                 <div class="row">
                     <form action="send.php">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказать электропривод">
+                            <input type="hidden" name="what" value="Заказ бетонных элементов">
                             <input name="name" type="text" required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
@@ -875,7 +1165,155 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- Заказать обслуживание-->
+<!-- Заказать автоматику-->
+<div class="modal fade" id="get_wicket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="header_modal">
+                        <h4>Для получения дополнительной информации и заказа интересующей вас калитки
+                            оставьте свои данные</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-xs-12">
+                            <input type="hidden" name="what" value="Заказ калитки">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <input name="phone" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать фурнитуру-->
+<div class="modal fade" id="get_furniture" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="header_modal">
+                        <h4>Для получения дополнительной информации и заказа интересующей вас фурнитуры
+                            оставьте свои данные</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-xs-12">
+                            <input type="hidden" name="what" value="Заказ фурнитуры">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <input name="phone" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать ворота-->
+<div class="modal fade" id="get_gate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="header_modal">
+                        <h4>Для получения дополнительной информации и заказа интересующих вас ворот
+                            оставьте свои данные</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-xs-12">
+                            <input type="hidden" name="what" value="Заказ ворот">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <input name="phone" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать калитку-->
+<div class="modal fade" id="get_automatic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="header_modal">
+                        <h4>Для получения дополнительной информации и заказа интересующей вас автоматики
+                            оставьте свои данные</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-xs-12">
+                            <input type="hidden" name="what" value="Заказ автоматики">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <input name="phone" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать сервисное обслуживание-->
 <div class="modal fade" id="get_service" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm">
