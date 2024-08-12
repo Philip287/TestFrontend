@@ -186,11 +186,12 @@ section#main {
       background-color: #67cc67;
       padding: 17px 35px;
       color: #fff;
-      front-size: 20px;
+      font-size: 20px;
       .bold;
       text-transform: uppercase;
 
       &:hover {
+        color: #0f0f0f;
         background-color: rgba(255, 255, 255, 0.8);
       }
     }
@@ -198,7 +199,7 @@ section#main {
     button#get_product {
       border: none;
       background-color: transparent;
-      padding: 12px 37px;
+      padding: 17px 33px;
       color: #fff;
       font-size: 20px;
       .bold;
@@ -207,6 +208,7 @@ section#main {
       margin-left: 20px;
 
       &:hover {
+        color: #0f0f0f;
         background-color: rgba(255, 255, 255, 0.8);
       }
     }
@@ -372,6 +374,43 @@ section#offer {
       opacity: 1;
       cursor: pointer;
     }
+
+  }
+
+  .item {
+    height: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+
+    h5 {
+      margin-top: 25px;
+      .med;
+      color: #666666;
+      font-size: 20px;
+    }
+
+    a {
+      .med;
+      front-size: 18px;
+    }
+
+    p {
+      margin-top: 30px;
+      .light;
+      front-size: 17px;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .carousel-indicators .active {
+    background-color: orangered;
+  }
+
+  .carousel-indicators li {
+    border: solid 1px orangered;
   }
 
   button[type="submit"] {
@@ -395,8 +434,13 @@ section#offer {
 section#feedback {
   padding-bottom: 50px;
 
+
   .section_header {
     margin-bottom: 50px;
+
+    h2 {
+      margin-top: 70px;
+    }
   }
 
   .item {
@@ -692,7 +736,7 @@ h4.modal-title {
 
     span {
       .bold;
-      color: #ff9933;
+      color: #0f0f0f;
       font-size: 24px;
     }
   }

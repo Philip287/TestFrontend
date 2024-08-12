@@ -25,7 +25,7 @@
         <div class="row wow"
              style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft;">
             <div class="col-sm-3 logotype">
-                <img class="img-responsive" src="img/logo.png" alt="Логотип SG">
+                <img class="img-responsive" src="img/logo 286x90.png" alt="Логотип SG">
             </div>
             <div class="col-sm-6 text-cen ter descript">
                 <h4>Продажа, установка и обслуживание домофонов, электроприводов ворот, заборов.</h4>
@@ -71,7 +71,7 @@
 
 <nav class="visible-xs">
     <div class="container">
-        <div class="col-xs-3 dropdown text-center">
+        <div class="col-xs-6">
             <a class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                href="#" role="button"
                aria-haspopup="true" aria-expanded="false">
@@ -87,7 +87,7 @@
             </ul>
         </div>
         <div class="col-xc-6 col-xs-offset-3 image">
-            <img src="img/logo50x130.png" alt="" class="img-responsive pull-right">
+            <img src="img/logo%20110x50.png" alt="" class="img-responsive pull-right">
         </div>
     </div>
 </nav>
@@ -208,7 +208,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="card">
-                    <img src="img/types-8service280x254.jpg" alt="Product" class="img-responsive center-block">
+                    <img src="img/types-8service280x254.png" alt="Product" class="img-responsive center-block">
                     <h4>Обслуживание</h4>
                     <br>
                     <button class="more_btn" data-toggle="modal" href="#more_service">подробнее</button>
@@ -284,30 +284,119 @@
 </section>
 
 <section id="offer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="img/gift%20300x260.jpg" alt="Акция" class="img-responsive center-block gift">
-            </div>
-            <div class="col-md-9">
-                <h4>Акция</h4> <br>
-                <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
-                <p>и получите в подарок 10% скидку на установку</p>
-                <div class="row">
-                    <form action="send.php" method="post">
-                        <input type="hidden" name="what" value="Участвовать в акции">
-                        <div class="col-md-4 col-sm-4">
-                            <input name="name" type="text" required placeholder="Имя..."
-                                   class="form-control form_input">
+    <div class="row">
+        <div class="feedback_slider">
+            <div id="myCarousel1" class="carousel slide" data-interval="30000" data-ride="carousel">
+                <!-- Индикаторы для карусели -->
+                <ol class="carousel-indicators">
+                    <!-- Перейти к 0 слфйду карусели с помощью соответстыующего индекса data-slide-to="0" -->
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <!-- Перейти к 0 слфйду карусели с помощью соответстыующего индекса data-slide-to="1" -->
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <!-- Перейти к 0 слфйду карусели с помощью соответстыующего индекса data-slide-to="2" -->
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                </ol>
+                <!-- Слайды карусели -->
+                <div class="carousel-inner">
+                    <!-- Слайды создаются с спомощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                    <div class="active item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 photo-offer">
+                                    <img src="img/gift%20300x260.jpg" alt="Акция"
+                                         class="img-responsive center-block gift">
+                                </div>
+                                <div class="col-md-9">
+                                    <h4>Акция</h4> <br>
+                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                    <p>и получите в подарок 10% скидку на установку</p>
+                                    <div class="row">
+                                        <form action="send.php" method="post">
+                                            <input type="hidden" name="what" value="Участвовать в акции 1">
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="name" type="text" required placeholder="Имя..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="phone" id="phone-1" type="tel" required
+                                                       placeholder="Телефон..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <button type="submit">Заказать</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <input name="phone" id="phone-1" type="tel" required placeholder="Телефон..."
-                                   class="form-control form_input">
+                    </div>
+                    <!-- Слайд №2 -->
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 photo-offer">
+                                    <img src="img/gift%20300x260.jpg" alt="Акция"
+                                         class="img-responsive center-block gift">
+                                </div>
+                                <div class="col-md-9">
+                                    <h4>Акция</h4> <br>
+                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                    <p>и получите в подарок 10% скидку на установку</p>
+                                    <div class="row">
+                                        <form action="send.php" method="post">
+                                            <input type="hidden" name="what" value="Участвовать в акции 2">
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="name" type="text" required placeholder="Имя..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="phone" id="phone-21" type="tel" required
+                                                       placeholder="Телефон..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <button type="submit">Заказать</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <button type="submit">Заказать</button>
+                    </div>
+                    <!-- Слайд №3 -->
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 photo-offer">
+                                    <img src="img/gift%20300x260.jpg" alt="Акция"
+                                         class="img-responsive center-block gift">
+                                </div>
+                                <div class="col-md-9">
+                                    <h4>Акция</h4> <br>
+                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                    <p>и получите в подарок 10% скидку на установку</p>
+                                    <div class="row">
+                                        <form action="send.php" method="post">
+                                            <input type="hidden" name="what" value="Участвовать в акции 3">
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="name" type="text" required placeholder="Имя..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input name="phone" id="phone-22" type="tel" required
+                                                       placeholder="Телефон..."
+                                                       class="form-control form_input">
+                                            </div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <button type="submit">Заказать</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -582,6 +671,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                             <img src="img/types/intercoms/10.jpg" alt="intercoms">
                             <img src="img/types/intercoms/11.jpg" alt="intercoms">
                             <img src="img/types/intercoms/12.jpg" alt="intercoms">
+                            <img src="img/types/intercoms/13.jpg" alt="intercoms">
+                            <img src="img/types/intercoms/14.jpg" alt="intercoms">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -644,6 +735,10 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                             <img src="img/types/fence/3.jpg" alt="fence">
                             <img src="img/types/fence/4.jpg" alt="fence">
                             <img src="img/types/fence/5.jpg" alt="fence">
+                            <img src="img/types/fence/6.jpg" alt="fence">
+                            <img src="img/types/fence/7.jpg" alt="fence">
+                            <img src="img/types/fence/8.jpg" alt="fence">
+                            <img src="img/types/fence/9.jpg" alt="fence">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -710,16 +805,13 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="fotorama" data-width="100%">
-                            <img src="img/types/concrete-elements/1.png" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/1.jpg" alt="concrete-elements">
                             <img src="img/types/concrete-elements/2.jpg" alt="concrete-elements">
                             <img src="img/types/concrete-elements/3.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/4.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/5.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/4.jpeg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/5.jpeg" alt="concrete-elements">
                             <img src="img/types/concrete-elements/6.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/7.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/8.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/9.jpg" alt="concrete-elements">
-                            <img src="img/types/concrete-elements/10.jpg" alt="concrete-elements">
+                            <img src="img/types/concrete-elements/7.jpeg" alt="concrete-elements">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -783,8 +875,6 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                             <img src="img/types/automatic/5.jpg" alt="intercoms">
                             <img src="img/types/automatic/6.jpg" alt="intercoms">
                             <img src="img/types/automatic/7.jpg" alt="intercoms">
-                            <img src="img/types/automatic/8.jpg" alt="intercoms">
-                            <img src="img/types/automatic/9.jpg" alt="intercoms">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -841,9 +931,33 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="fotorama" data-width="100%">
-                            <img src="img/types/furniture/1.png" alt="furniture">
-                            <img src="img/types/furniture/1.png" alt="furniture">
-                            <img src="img/types/furniture/1.png" alt="furniture">
+                            <img src="img/types/furniture/1.jpg" alt="furniture">
+                            <img src="img/types/furniture/2.jpg" alt="furniture">
+                            <img src="img/types/furniture/3.jpg" alt="furniture">
+                            <img src="img/types/furniture/4.jpg" alt="furniture">
+                            <img src="img/types/furniture/5.jpg" alt="furniture">
+                            <img src="img/types/furniture/6.jpg" alt="furniture">
+                            <img src="img/types/furniture/7.jpg" alt="furniture">
+                            <img src="img/types/furniture/8.jpg" alt="furniture">
+                            <img src="img/types/furniture/9.jpg" alt="furniture">
+                            <img src="img/types/furniture/10.jpg" alt="furniture">
+                            <img src="img/types/furniture/11.jpg" alt="furniture">
+                            <img src="img/types/furniture/12.jpg" alt="furniture">
+                            <img src="img/types/furniture/13.jpg" alt="furniture">
+                            <img src="img/types/furniture/14.jpg" alt="furniture">
+                            <img src="img/types/furniture/15.jpg" alt="furniture">
+                            <img src="img/types/furniture/16.jpg" alt="furniture">
+                            <img src="img/types/furniture/17.jpg" alt="furniture">
+                            <img src="img/types/furniture/18.jpg" alt="furniture">
+                            <img src="img/types/furniture/19.jpg" alt="furniture">
+                            <img src="img/types/furniture/20.jpg" alt="furniture">
+                            <img src="img/types/furniture/21.jpg" alt="furniture">
+                            <img src="img/types/furniture/22.jpg" alt="furniture">
+                            <img src="img/types/furniture/23.jpg" alt="furniture">
+                            <img src="img/types/furniture/24.jpg" alt="furniture">
+                            <img src="img/types/furniture/25.jpg" alt="furniture">
+                            <img src="img/types/furniture/26.jpg" alt="furniture">
+                            <img src="img/types/furniture/27.jpg" alt="furniture">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -902,6 +1016,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                             <img src="img/types/gate/1.jpg" alt="furniture">
                             <img src="img/types/gate/2.jpg" alt="furniture">
                             <img src="img/types/gate/3.jpg" alt="furniture">
+                            <img src="img/types/gate/4.jpg" alt="furniture">
+                            <img src="img/types/gate/5.jpg" alt="furniture">
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -958,8 +1074,8 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     <div class="col-sm-5">
                         <div class="fotorama" data-width="100%">
                             <img src="img/types/wicket/1.jpg" alt="wicket">
-                            <img src="img/types/wicket/1.jpg" alt="wicket">
-                            <img src="img/types/wicket/1.jpg" alt="wicket">
+                            <img src="img/types/wicket/2.jpg" alt="wicket">
+                            <img src="img/types/wicket/3.jpg" alt="wicket">
                         </div>
                     </div>
                     <div class="col-sm-7">
