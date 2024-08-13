@@ -11,6 +11,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -231,7 +232,7 @@
                 <button id="free_consult" data-toggle="modal" href="#get_measurer_modal">Бесплатная консультация
                 </button>
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 photo-help">
                 <img src="img/help_img%20200x180.jpg" alt="Бесплатная консультация"
                      class="img-responsive wow animate__bounceInUp help_img center-block">
             </div>
@@ -298,34 +299,36 @@
                 </ol>
                 <!-- Слайды карусели -->
                 <div class="carousel-inner">
-                    <!-- Слайды создаются с спомощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                    <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
                     <div class="active item">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-3 photo-offer">
-                                    <img src="img/gift%20300x260.jpg" alt="Акция"
-                                         class="img-responsive center-block gift">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4>Акция</h4> <br>
-                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
-                                    <p>и получите в подарок 10% скидку на установку</p>
-                                    <div class="row">
-                                        <form action="send.php" method="post">
-                                            <input type="hidden" name="what" value="Участвовать в акции 1">
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="name" type="text" required placeholder="Имя..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="phone" id="phone-1" type="tel" required
-                                                       placeholder="Телефон..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <button type="submit">Заказать</button>
-                                            </div>
-                                        </form>
+                                <div class="col-sm-12 card-offer">
+                                    <div class="col-sm-3 photo-offer">
+                                        <img src="img/gift%20250x240.png" alt="Акция"
+                                             class="img-responsive center-block gift">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <h4>Акция</h4><br>
+                                        <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                        <p>и получите в подарок 10% скидку на установку</p>
+                                        <div class="row">
+                                            <form action="send.php" method="post">
+                                                <input type="hidden" name="what" value="Участвовать в акции 1">
+                                                <div class="col-sm-4">
+                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input name="phone" id="phone-1" type="tel" required
+                                                           placeholder="Телефон..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <button type="submit">Заказать</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -335,30 +338,32 @@
                     <div class="item">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-3 photo-offer">
-                                    <img src="img/gift%20300x260.jpg" alt="Акция"
-                                         class="img-responsive center-block gift">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4>Акция</h4> <br>
-                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
-                                    <p>и получите в подарок 10% скидку на установку</p>
-                                    <div class="row">
-                                        <form action="send.php" method="post">
-                                            <input type="hidden" name="what" value="Участвовать в акции 2">
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="name" type="text" required placeholder="Имя..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="phone" id="phone-21" type="tel" required
-                                                       placeholder="Телефон..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <button type="submit">Заказать</button>
-                                            </div>
-                                        </form>
+                                <div class="col-sm-12 card-offer">
+                                    <div class="col-sm-3 photo-offer">
+                                        <img src="img/gift%20250x240.png" alt="Акция"
+                                             class="img-responsive center-block gift">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <h4>Акция</h4> <br>
+                                        <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                        <p>и получите в подарок 10% скидку на установку</p>
+                                        <div class="row">
+                                            <form action="send.php" method="post">
+                                                <input type="hidden" name="what" value="Участвовать в акции 2">
+                                                <div class="col-sm-4">
+                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input name="phone" id="phone-21" type="tel" required
+                                                           placeholder="Телефон..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <button type="submit">Заказать</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -368,30 +373,32 @@
                     <div class="item">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-3 photo-offer">
-                                    <img src="img/gift%20300x260.jpg" alt="Акция"
-                                         class="img-responsive center-block gift">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4>Акция</h4> <br>
-                                    <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
-                                    <p>и получите в подарок 10% скидку на установку</p>
-                                    <div class="row">
-                                        <form action="send.php" method="post">
-                                            <input type="hidden" name="what" value="Участвовать в акции 3">
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="name" type="text" required placeholder="Имя..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <input name="phone" id="phone-22" type="tel" required
-                                                       placeholder="Телефон..."
-                                                       class="form-control form_input">
-                                            </div>
-                                            <div class="col-md-4 col-sm-4">
-                                                <button type="submit">Заказать</button>
-                                            </div>
-                                        </form>
+                                <div class="col-sm-12 card-offer">
+                                    <div class="col-sm-3 photo-offer">
+                                        <img src="img/gift%20250x240.png" alt="Акция"
+                                             class="img-responsive center-block gift">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <h4>Акция</h4> <br>
+                                        <h3>Закажите любую нашу продукцию до конца осени 2024</h3>
+                                        <p>и получите в подарок 10% скидку на установку</p>
+                                        <div class="row">
+                                            <form action="send.php" method="post">
+                                                <input type="hidden" name="what" value="Участвовать в акции 3">
+                                                <div class="col-sm-4">
+                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input name="phone" id="phone-22" type="tel" required
+                                                           placeholder="Телефон..."
+                                                           class="form-control form_input">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <button type="submit">Заказать</button>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1621,6 +1628,10 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     });
 </script>
 <script>
+    function $(document) {
+
+    }
+
     $(document).ready(function () {
         $("#top_nav").on("click", "a", function (event) {
             //отменяем стандартную обработку нажатия по ссылке

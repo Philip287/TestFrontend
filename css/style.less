@@ -73,7 +73,7 @@ header {
 
     h5 {
       .light;
-      front-size: 15px;
+      font-size: 15px;
     }
   }
 
@@ -89,7 +89,7 @@ header {
     }
 
     a {
-      front-size: 25px;
+      font-size: 25px;
       .med;
       color: #666666;
 
@@ -150,6 +150,11 @@ section#main {
   background-size: cover;
   margin-top: 60px;
 
+  .main-text{
+    margin-top: 15px;
+    background: #666666;
+  }
+
   .main_header {
     h1 {
       margin-top: 100px;
@@ -198,13 +203,12 @@ section#main {
 
     button#get_product {
       border: none;
-      background-color: transparent;
+      background-color: #67cc67;
       padding: 17px 33px;
       color: #fff;
       font-size: 20px;
       .bold;
       text-transform: uppercase;
-      border: 2px solid #67cc67;
       margin-left: 20px;
 
       &:hover {
@@ -236,16 +240,17 @@ section#types {
     color: #66cc66;
     border: 2px solid #66cc66;
     padding: 10px 27px;
-    background-color: transparent;
+    background-color: #66cc66;
     text-transform: uppercase;
+    color: #fff;
     .bold;
     -moz-transition: all 0.1s 0.02s ease;
     -o-transition: all 0.1s 0.02s ease;
     -vebrit-transition: all 0.1s 0.02s ease;
 
     &:hover {
-      background-color: #66cc66;
-      color: #fff;
+      background-color: transparent;
+      color: #66cc66;
     }
   }
 
@@ -326,15 +331,17 @@ section#offer {
   padding-top: 70px;
 
   h4 {
+    font-size: 45px;
+    margin-top: 25px;
     text-transform: uppercase;
     color: orangered;
-    .bold
+    .bold;
   }
 
   h3 {
     text-transform: uppercase;
     color: orangered;
-    .bold
+    .bold;
   }
 
   p {
@@ -377,13 +384,21 @@ section#offer {
 
   }
 
+  .card-offer {
+    background-color: #f8f8f8;
+    padding-bottom: 50px;
+  }
+
   .item {
     height: 300px;
-    background-color: #f8f8f8;
     padding: 20px;
 
-    h5 {
+    .photo-offer {
       margin-top: 25px;
+    }
+
+    h5 {
+      margin-top: 20px;
       .med;
       color: #666666;
       font-size: 20px;
@@ -402,7 +417,7 @@ section#offer {
   }
 
   .carousel-indicators {
-    bottom: -50px;
+    bottom: -40px;
   }
 
   .carousel-indicators .active {
@@ -444,6 +459,7 @@ section#feedback {
   }
 
   .item {
+    border-radius: 2px;
     height: 350px;
     background-color: #f8f8f8;
     padding: 20px;
@@ -738,7 +754,7 @@ h4.modal-title {
       .bold;
       color: #0f0f0f;
       font-size: 24px;
-    }      
+    }
   }
 }
 
