@@ -145,10 +145,36 @@ nav {
 }
 
 /*==================    ГЛАВНЫЙ ЭКРАН    ==================*/
+section#main-2{
+  .main_buttons {
+    padding-top: 7px;
+    margin-bottom: 100px;
+
+    button#come_back {
+      border: 2px solid #67cc67;
+      background-color: #67cc67;
+      padding: 17px 35px;
+      color: #fff;
+      font-size: 20px;
+      .bold;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #0f0f0f;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid #67cc67;
+      }
+    }
+  }
+}
+
 section#main {
   background: url(../img/main_bg.jpg) no-repeat center;
   background-size: cover;
   margin-top: 60px;
+  .thanks {
+    margin-top: 50px;
+  }
 
   .main-text{
     margin-top: 15px;
@@ -304,7 +330,7 @@ section#help {
   p {
     color: #666666;
     .light;
-    front-size: 18px;
+    font-size: 18px;
   }
 
   img {
@@ -343,13 +369,6 @@ section#offer {
     text-transform: uppercase;
     color: orangered;
     .bold;
-  }
-
-  p {
-    .light;
-    color: #666666;
-    front-size: 22px;
-    text-transform: uppercase;
   }
 
   input[name="name"] {
@@ -407,13 +426,14 @@ section#offer {
 
     a {
       .med;
-      front-size: 18px;
+      font-size: 18px;
     }
 
     p {
-      margin-top: 30px;
+      font-size: 15px;
+      color: #666666;
+      text-transform: uppercase;
       .light;
-      front-size: 17px;
     }
   }
 
@@ -455,13 +475,13 @@ section#feedback {
     margin-bottom: 50px;
 
     h2 {
-      margin-top: 70px;
+      margin-top: 50px;
     }
   }
 
   .item {
     border-radius: 2px;
-    height: 350px;
+    height: 290px;
     background-color: #f8f8f8;
     padding: 20px;
 
@@ -474,7 +494,7 @@ section#feedback {
 
     h2 {
       text-align: center;
-      margin-top: 80px;
+      margin-top: 60px;
       .bold;
       color: #67cc67;
       font-size: 60px;
@@ -491,13 +511,13 @@ section#feedback {
 
     a {
       .med;
-      front-size: 18px;
+      font-size: 18px;
     }
 
     p {
       margin-top: 30px;
       .light;
-      front-size: 17px;
+      font-size: 17px;
     }
   }
 
@@ -646,7 +666,7 @@ footer {
     a {
       color: #fff;
       .bold;
-      front-size: 18px;
+      font-size: 18px;
     }
   }
 }
@@ -761,7 +781,7 @@ h4.modal-title {
 
   p {
     .light;
-    front-size: 18px;
+    font-size: 18px;
 
     span {
       .bold;
