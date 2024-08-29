@@ -316,13 +316,19 @@
                                         <p>и получите в подарок скидку 10%</p>
                                         <div class="row">
                                             <form action="send.php" method="post">
-                                                <input type="hidden" name="what" value="Участвовать в акции 1">
+                                                <input type="hidden" name="what" value="Участвовать в акции комплект Stublina">
                                                 <div class="col-sm-4">
-                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                    <input name="name" type="text"
+                                                           pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                                           maxlength="25"
+                                                           title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                                           required placeholder="Имя..."
                                                            class="form-control form_input">
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <input name="phone" id="phone-1" type="tel" required
+                                                           pattern="[\+]\d{12}"
+                                                           title="Требуемый формат ввода: +375292123456"
                                                            placeholder="Телефон..."
                                                            class="form-control form_input">
                                                 </div>
@@ -352,13 +358,19 @@
                                             при самостоятельном подключении.</p>
                                         <div class="row">
                                             <form action="send.php" method="post">
-                                                <input type="hidden" name="what" value="Участвовать в акции 2">
+                                                <input type="hidden" name="what" value="Участвовать в акции комлект видеомофона">
                                                 <div class="col-sm-4">
-                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                    <input name="name" type="text"
+                                                           pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                                           maxlength="25"
+                                                           title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                                           required placeholder="Имя..."
                                                            class="form-control form_input">
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <input name="phone" id="phone-21" type="tel" required
+                                                           pattern="[\+]\d{12}"
+                                                           title="Требуемый формат ввода: +375292123456"
                                                            placeholder="Телефон..."
                                                            class="form-control form_input">
                                                 </div>
@@ -387,13 +399,19 @@
                                         <p>и получите в подарок скидку 15% на покупку зубчатой рейки</p>
                                         <div class="row">
                                             <form action="send.php" method="post">
-                                                <input type="hidden" name="what" value="Участвовать в акции 3">
+                                                <input type="hidden" name="what" value="Участвовать в акции комплекта Alutech">
                                                 <div class="col-sm-4">
-                                                    <input name="name" type="text" required placeholder="Имя..."
+                                                    <input name="name" type="text"
+                                                           pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                                           maxlength="25"
+                                                           title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                                           required placeholder="Имя..."
                                                            class="form-control form_input">
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <input name="phone" id="phone-22" type="tel" required
+                                                           pattern="[\+]\d{12}"
+                                                           title="Требуемый формат ввода: +375292123456"
                                                            placeholder="Телефон..."
                                                            class="form-control form_input">
                                                 </div>
@@ -438,20 +456,20 @@
                         <div class="active item">
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <h2>1780</h2>
+                                    <h2>1 245</h2>
                                     <h3>довольных заказчиков</h3>
                                 </div>
                                 <div class="col-sm-3">
-                                    <h2>17 473</h2>
+                                    <h2>13 325</h2>
                                     <h3>м. пог. заборов</h3>
                                 </div>
                                 <div class="col-sm-3">
-                                    <h2>16</h2>
+                                    <h2>12</h2>
                                     <h3>лет на рынке</h3>
                                 </div>
                                 <div class="col-sm-3">
-                                    <h2>5</h2>
-                                    <h3>опытных бригад</h3>
+                                    <h2>4</h2>
+                                    <h3>опытные бригады</h3>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +557,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                         <p id="Grodno">
                             Гродно, Румлёвский проспект, 8.
                             <br>
-                            (рядом с пвз "WILDBERRIS", напротив многоквартирных домов)
+                            (рядом с пвз "WILDBERRIES", напротив многоквартирных домов)
                         </p>
                     </address>
                 </div>
@@ -615,12 +633,19 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row">
                     <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ консультации">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать консультацию">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" id="phone-2" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-2" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -689,12 +714,19 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                 <div class="row">
                     <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" value="Домофоны" name="what">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" value="Заказать домофон" name="what">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-3" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-3" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -772,14 +804,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Заборы">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать забор">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-4" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-4" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -847,14 +886,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Бетонные элементы">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать бетонные элементы">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-8" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-8" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -927,14 +973,22 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Автоматика для ворот">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what"
+                                   value="Заказать автоматику для ворот">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-5" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-5" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -1044,14 +1098,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Фурнитура">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать фурнитуру">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-9" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-9" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -1131,14 +1192,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Ворота">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать ворота">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-10" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-10" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -1215,14 +1283,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Калитки">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать калитку">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-11" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-11" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -1285,14 +1360,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-sm-4">
-                            <input type="hidden" name="what" value="Ремонт и обслуживание">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать ремонт и обслуживание">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
-                            <input name="phone" id="phone-6" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-6" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-sm-4">
@@ -1322,14 +1404,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Домофоны">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать домофон">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" id="phone-7" type="tel" required placeholder="Телефон..."
+                            <input name="phone" id="phone-7" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1359,14 +1448,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ забора">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать забор">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1396,14 +1492,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ бетонных элементов">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать бетонные элементы">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1416,7 +1519,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- Заказать автоматику-->
+<!-- Заказать калитки-->
 <div class="modal fade" id="get_wicket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog big_modal modal-sm">
@@ -1433,14 +1536,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ калитки">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать калитку">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1470,14 +1580,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ фурнитуры">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать фурнитуру">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1507,14 +1624,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ ворот">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать ворота">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1527,7 +1651,7 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
-<!-- Заказать калитку-->
+<!-- Заказать автоматику-->
 <div class="modal fade" id="get_automatic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog big_modal modal-sm">
@@ -1544,14 +1668,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ автоматики">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказ автоматику">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1580,14 +1711,21 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
-                            <input type="hidden" name="what" value="Заказ обслуживания">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input type="hidden" name="what" value="Заказать обслуживание или ремонт">
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
@@ -1616,19 +1754,26 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
                     </div>
                 </div>
                 <div class="row">
-                    <form action="send.php">
+                    <form action="send.php" method="post">
                         <div class="col-xs-12">
                             <input type="hidden" name="what" value="Задать вопрос">
-                            <input name="name" type="text" required placeholder="Имя..."
+                            <input name="name" type="text"
+                                   pattern= "[A-Za-zА-Яа-яЁё\s]+$"
+                                   maxlength="25"
+                                   title="Имя должно состоять только и букв, ввод ограничен 25 символов"
+                                   required placeholder="Имя..."
                                    class="form-control form_input">
                         </div>
                         <div class="col-xs-12">
-                            <input name="phone" type="tel" required placeholder="Телефон..."
+                            <input name="phone" type="tel"
+                                   pattern="[\+]\d{12}"
+                                   title="Требуемый формат ввода: +375292123456"
+                                   required placeholder="Телефон..."
                                    class="form-control form_input">
                         </div>
 
                         <div class="col-xs-12">
-                            <textarea name="question" placeholder="Ваш вопрос" id="" cols="30" rows="3"></textarea>
+                            <textarea name="question" placeholder="Ваш вопрос" cols="30" rows="3"></textarea>
                         </div>
                         <div class="col-xs-12">
                             <button type="submit">Задать вопрос</button>

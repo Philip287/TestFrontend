@@ -237,6 +237,45 @@ services/constructor/1.0/js/?um=constructor%3A432004d1148f559ed4e1a02c555e739ba4
     </div>
 </div>
 
+<!-- Задать вопрос-->
+<div class="modal fade" id="get_question" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog big_modal modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="header_modal">
+                        <h4>Задайте вопрос, и наш менеджер <br> с радостью ответит на него!</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="send.php">
+                        <div class="col-xs-12">
+                            <input type="hidden" name="what" value="Задать вопрос">
+                            <input name="name" type="text" required placeholder="Имя..."
+                                   class="form-control form_input">
+                        </div>
+                        <div class="col-xs-12">
+                            <input name="phone" type="tel" required placeholder="Телефон..."
+                                   class="form-control form_input">
+                        </div>
+
+                        <div class="col-xs-12">
+                            <textarea name="question" placeholder="Ваш вопрос" id="" cols="30" rows="3"></textarea>
+                        </div>
+                        <div class="col-xs-12">
+                            <button type="submit">Задать вопрос</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     var h_hght = 110; // высота шапки
