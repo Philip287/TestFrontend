@@ -29,15 +29,15 @@
 }
 
 .bold {
-  font-family: "PFDinTextCondProBold";
+  font-family: "PFDinTextCondProBold", serif;
 }
 
 .med {
-  font-family: "PFDinTextCondProMedium";
+  font-family: "PFDinTextCondProMedium", serif;
 }
 
 .light {
-  font-family: "PFDinTextCondProLight";
+  font-family: "PFDinTextCondProLight", serif;
 }
 
 /*======================    БАЗОВЫЕ НАСТРОЙКИ   ====================*/
@@ -55,7 +55,7 @@ a:active {
 }
 
 button:focus {
-  autline: none;
+  outline: none;
 }
 
 /*=========================    Шапка    =========================*/
@@ -127,7 +127,7 @@ nav {
     color: #666666;
     -moz-transition: all 0.1s 0.02s ease;
     -o-transition: all 0.1s 0.02s ease;
-    -vebrit-transition: all 0.1s 0.02s ease;
+    -webkit-transition: all 0.1s 0.02s ease;
 
     &:hover {
       text-decoration: none;
@@ -264,8 +264,6 @@ section#types {
   }
 
   button.more_btn {
-    border: none;
-    color: #66cc66;
     border: 2px solid #66cc66;
     padding: 10px 27px;
     background-color: #66cc66;
@@ -274,7 +272,7 @@ section#types {
     .bold;
     -moz-transition: all 0.1s 0.02s ease;
     -o-transition: all 0.1s 0.02s ease;
-    -vebrit-transition: all 0.1s 0.02s ease;
+    -webkit-transition: all 0.1s 0.02s ease;
 
     &:hover {
       background-color: transparent;
@@ -283,8 +281,6 @@ section#types {
   }
 
   button.offer_btn {
-    border: none;
-    color: #66cc66;
     border: 2px solid #66cc66;
     padding: 10px 27px;
     background-color: #66cc66;
@@ -293,7 +289,7 @@ section#types {
     .bold;
     -moz-transition: all 0.1s 0.02s ease;
     -o-transition: all 0.1s 0.02s ease;
-    -vebrit-transition: all 0.1s 0.02s ease;
+    -webkit-transition: all 0.1s 0.02s ease;
 
     &:hover {
       background-color: transparent;
@@ -305,7 +301,7 @@ section#types {
   .card {
     -moz-transition: all 0.1s 0.02s ease;
     -o-transition: all 0.1s 0.02s ease;
-    -vebrit-transition: all 0.1s 0.02s ease;
+    -webkit-transition: all 0.1s 0.02s ease;
     padding: 5px;
     border: 2px solid transparent;
 
@@ -342,7 +338,6 @@ section#help {
   button#free_consult {
     .bold;
     text-transform: uppercase;
-    border: none;
     background-color: #67cc67;
     color: #fff;
     border: 2px solid #67cc67;
@@ -373,11 +368,14 @@ section#offer {
     .bold;
   }
 
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+
   input[name="name"] {
     background: url(../img/icon/name_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
-    border: 0;
     border: solid 1px #cccccc;
     .light;
     opacity: 0.5;
@@ -393,7 +391,6 @@ section#offer {
     background: url(../img/icon/tel_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
-    border: 0;
     border: solid 1px #cccccc;
     .light;
     opacity: 0.5;
@@ -714,12 +711,15 @@ h4.modal-title {
 .modal-content {
   border-radius: 0;
 
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+
   input[name="name"] {
     margin-top: 15px;
     background: url(../img/icon/name_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
-    border: 0;
     border: solid 1px #cccccc;
     .light;
     opacity: 0.5;
@@ -736,7 +736,6 @@ h4.modal-title {
     background: url(../img/icon/tel_input20x20.png) no-repeat left 12px;
     padding: 25px;
     padding-left: 30px;
-    border: 0;
     border: solid 1px #cccccc;
     .light;
     opacity: 0.5;
@@ -753,7 +752,6 @@ h4.modal-title {
     margin-top: 15px;
     padding: 25px;
     padding-left: 30px;
-    border: 0;
     border: solid 1px #cccccc;
     .light;
     opacity: 0.5;
